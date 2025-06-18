@@ -91,7 +91,7 @@ body {
 
 .logo {
     font-size: 2em;
-    color: #e4be01;
+    color: #2e2e2e;
     text-decoration: none;
 }
 
@@ -130,7 +130,7 @@ body {
 }
 
 .search-bar button[type="submit"] {
-    background-color: #f7b500;
+    background-color: #2e2e2e;
     color: #fff;
     border: none;
     padding: 19px 15px;
@@ -140,7 +140,7 @@ body {
 }
 
 .search-bar button[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: #2e2e2e;
 }
 
 .cart-icon a {
@@ -151,7 +151,7 @@ body {
 }
 
 .cart-icon a:hover {
-    color: #007bff;
+    color: #2e2e2e;
 }
 
 .cart-icon i {
