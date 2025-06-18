@@ -85,12 +85,12 @@ body {
 }
 
 .logo img {
-    width: 120px; /* ou qualquer tamanho que fique bom no seu layout */
+    width: 180px; /* ou qualquer tamanho que fique bom no seu layout */
     height: auto;
 }
 
 .logo {
-    font-size: 2em;
+    font-size: 3em;
     color: #2e2e2e;
     text-decoration: none;
 }
