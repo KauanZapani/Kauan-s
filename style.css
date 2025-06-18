@@ -21,12 +21,7 @@ body {
     border-radius: 8px;
     font-weight: bold;
     transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-}
 
-.button.primary {
-    background-color: #896e59;
-    color: #0e0600;
-    border: 2px solid #0e0600;
 }
 
 .button.primary:hover {
