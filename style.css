@@ -30,13 +30,13 @@ body {
 }
 
 .button.secondary {
-    background-color: #fffff;
+    background-color: #fff;
     color: #3065AC;
     border: 2px solid #3065AC;
 }
 
 .button.secondary:hover {
-    background-color: #fffff;
+    background-color: #fff;
     color: #3065AC;
     transform: translateY(-2px);
     box-shadow: 0 3px 10px rgba(0, 123, 255, 0.2);
