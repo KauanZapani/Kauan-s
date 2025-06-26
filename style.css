@@ -44,7 +44,7 @@ body {
 
 .section-title {
     font-size: 2.5em;
-    color: #ff0000;
+    color: #3065AC;
     text-align: center;
     margin-bottom: 30px;
     position: relative;
@@ -59,7 +59,7 @@ body {
     transform: translateX(-50%);
     width: 80px;
     height: 3px;
-    background-color: #c10000;
+    background-color: #3065AC;
 }
 
 /* Header */
@@ -155,7 +155,7 @@ body {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('fundo.jpg') center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('centro.jpg') center/cover no-repeat;
     color: #fff;
     padding: 100px 0;
     text-align: center;
