@@ -111,6 +111,7 @@ body {
 
 .main-nav a:hover {
     color: #0e0600;
+    border: 2px solid #3065AC
 }
 
 .search-bar {
