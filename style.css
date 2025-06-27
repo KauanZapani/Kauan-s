@@ -114,27 +114,7 @@ body {
     border: 2px solid #3065AC
 }
 
-.search-bar {
-    display: flex;
-    align-items: center;
-}
 
-.search-bar input[type="text"] {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px 0 0 5px;
-    outline: none;
-}
-
-.search-bar button[type="submit"] {
-    background-color: #2e2e2e;
-    color: #fff;
-    border: none;
-    padding: 19px 15px;
-    border-radius: 0 5px 5px 0;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-}
 
 .search-bar button[type="submit"]:hover {
     background-color: #2e2e2e;
