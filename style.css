@@ -82,6 +82,7 @@ body {
 .logo img {
     width: 180px; /* ou qualquer tamanho que fique bom no seu layout */
     height: auto;
+    align-items: center;
 }
 
 .logo {
