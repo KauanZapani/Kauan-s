@@ -120,20 +120,7 @@ body {
     background-color: #2e2e2e;
 }
 
-.cart-icon a {
-    text-decoration: none;
-    color: #555;
-    font-weight: bold;
-    transition: color 0.3s ease-in-out;
-}
 
-.cart-icon a:hover {
-    color: #2e2e2e;
-}
-
-.cart-icon i {
-    margin-right: 5px;
-}
 
 /* Hero Section */
 .hero {
