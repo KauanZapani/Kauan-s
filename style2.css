@@ -161,12 +161,14 @@ body {
 }
 
 .product-card {
-    background-color: #f9f9f9;
+    display: flex;
+    width: 400px;
+    border: 2px solid #ddd;
     border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
     overflow: hidden;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    width: 300px 100px;
+    transition: transform 0.3s ease;
 }
 
 .product-card:hover {
