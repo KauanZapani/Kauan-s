@@ -166,7 +166,7 @@ body {
     overflow: hidden;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    padding: 945px 277px;
+    width: 500px 200px;
 }
 
 .product-card:hover {
