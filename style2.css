@@ -148,66 +148,54 @@ body {
 }
 
 /* Featured Products */
-.featured-products {
-    padding: 50px 0;
-    background-color: #fff;
+.news-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
-.product-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 30px;
-    margin-top: 30px;
+.news-card {
+  display: flex;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.product-card {
-    display: flex;
-    border: 2px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    background-color: white;
-    overflow: hidden;
-    transition: transform 0.3s ease;
+.news-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }
 
-.product-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+.news-image {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px 0 0 10px;
 }
 
-.product-card img {
-    width: 100%;
-    display: block;
-    aspect-ratio: 1 / 1; /* Manter proporção quadrada */
-    object-fit: cover;
+.news-info {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
 }
 
-.product-card h3 {
-    font-size: 1.2em;
-    margin: 15px 10px;
-    text-align: center;
+.news-info h2 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
 }
 
-.product-card .price {
-    font-weight: bold;
-    color: #007bff;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.product-card button {
-    width: 100%;
-    padding: 10px 91px;
-    border: none;
-    background-color: #eee;
-    color: #333;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-    border-radius: 0 0 8px 8px;
-}
-
-.product-card button:hover {
-    background-color: #ddd;
+.news-info p {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 15px;
+  flex-grow: 1;
 }
 
 /* Call to Action */
