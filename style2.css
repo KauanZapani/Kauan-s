@@ -161,6 +161,8 @@ body {
 }
 
 .product-card {
+  display: flex;
+  flex-direction: row;
   width: 800px;
   height: 300px;
   margin-bottom: 20px;
