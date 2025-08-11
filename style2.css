@@ -166,7 +166,7 @@ body {
   flex-direction: row; /* MUITO IMPORTANTE: garante imagem à esquerda e texto à direita */
   align-items: center;
   gap: 15px;
-  width: 500px;
+  width: 1000px;
   height: 160px;
   padding: 15px;
   border: 1px solid #ddd;
