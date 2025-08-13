@@ -45,7 +45,7 @@ body {
 
 .section-title {
     font-size: 2.5em;
-    color: #3065AC;
+    color: #4a9e53;
     text-align: center;
     margin-bottom: 30px;
     position: relative;
@@ -60,7 +60,7 @@ body {
     transform: translateX(-50%);
     width: 80px;
     height: 3px;
-    background-color: #3065AC;
+    background-color: #4a9e53;
 }
 
 /* Header */
@@ -193,7 +193,7 @@ body {
 
 /* Call to Action */
 .call-to-action {
-    background-color: #007bff;
+    background-color: #4a9e53;
     color: #fff;
     padding: 5px 0;
     text-align: center;
