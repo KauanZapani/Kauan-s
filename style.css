@@ -59,7 +59,7 @@ body {
     transform: translateX(-50%);
     width: 80px;
     height: 3px;
-    background-color: #4a9e53;
+    background-color: #4A9E53;
 }
 
 /* Header */
@@ -107,11 +107,6 @@ body {
     color: #0e0600;
     font-weight: bold;
     transition: color 0.3s ease-in-out;
-}
-
-.main-nav a:hover {
-    color: #0e0600;
-    border: 2px solid #3065AC
 }
 
 
@@ -210,7 +205,7 @@ body {
 
 /* Call to Action */
 .call-to-action {
-    background-color: #4a9e53;
+    background-color: #4A9E53;
     color: #fff;
     padding: 5px 0;
     text-align: center;
