@@ -15,6 +15,7 @@ body {
 }
 
 .button {
+    color: #fff;
     text-align: center;
     display: inline-block;
     padding: 8px 50px;
